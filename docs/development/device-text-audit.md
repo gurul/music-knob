@@ -20,7 +20,8 @@ Candidate strings: 16
 
 ## Artwork unavailable
 
-- Locations: 5
+- Locations: 6
+- `devices/elecrow-crowpanel-esp32-s3-21-rotary/device/lvgl.yaml:85`
 - `devices/esp32-p4-86-panel/device/lvgl.yaml:70`
 - `devices/guition-esp32-p4-jc1060p470/device/lvgl.yaml:77`
 - `devices/guition-esp32-p4-jc4880p443/device/lvgl.yaml:75`
@@ -44,7 +45,8 @@ Candidate strings: 16
 
 ## Group Volume
 
-- Locations: 4
+- Locations: 5
+- `devices/elecrow-crowpanel-esp32-s3-21-rotary/device/lvgl.yaml:437`
 - `devices/esp32-p4-86-panel/device/lvgl.yaml:413`
 - `devices/guition-esp32-p4-jc1060p470/device/lvgl.yaml:420`
 - `devices/guition-esp32-p4-jc4880p443/device/lvgl.yaml:416`
@@ -67,7 +69,8 @@ Candidate strings: 16
 
 ## Speakers
 
-- Locations: 5
+- Locations: 6
+- `devices/elecrow-crowpanel-esp32-s3-21-rotary/device/lvgl.yaml:369`
 - `devices/esp32-p4-86-panel/device/lvgl.yaml:348`
 - `devices/guition-esp32-p4-jc1060p470/device/lvgl.yaml:355`
 - `devices/guition-esp32-p4-jc4880p443/device/lvgl.yaml:351`
@@ -91,7 +94,8 @@ Candidate strings: 16
 
 ## Volume
 
-- Locations: 5
+- Locations: 6
+- `devices/elecrow-crowpanel-esp32-s3-21-rotary/device/lvgl.yaml:301`
 - `devices/esp32-p4-86-panel/device/lvgl.yaml:280`
 - `devices/guition-esp32-p4-jc1060p470/device/lvgl.yaml:285`
 - `devices/guition-esp32-p4-jc4880p443/device/lvgl.yaml:283`

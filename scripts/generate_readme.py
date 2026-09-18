@@ -23,6 +23,9 @@ def supported_screens_table() -> str:
     for device in devices_by_docs_order():
         width, height = display_dimensions(device)
         docs_url = f"{DOCS_BASE_URL}{device.docs_path}"
+        if device.package_repo:
+            # Fork-only devices are not on the upstream docs site; link the page source.
+            docs_url = f"https://github.com/{device.package_repo}/blob/main/docs{device.docs_path}.md"
         device_link = f"[{device.display['name']}]({docs_url})"
         purchase = device.purchase
         buy_link = f"[{purchase['label']}]({purchase['url']})"

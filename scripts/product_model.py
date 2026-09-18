@@ -38,6 +38,9 @@ class Device:
     dev: dict[str, Any]
     alternate_package_paths: list[str] | None = None
     build_aliases: list[str] | None = None
+    # GitHub "owner/repo" that serves this device's packages. Devices that only
+    # exist in a fork set this so their public configs pull from the fork.
+    package_repo: str | None = None
 
     @property
     def factory_yaml(self) -> Path:

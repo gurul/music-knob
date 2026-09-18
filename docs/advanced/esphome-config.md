@@ -37,6 +37,27 @@ packages:
     refresh: 1s
 ```
 
+### CrowPanel 2.1" Rotary (round)
+
+This device lives in the gurul fork, so its package URL points there.
+
+```yaml
+substitutions:
+  name: "music-knob"
+  friendly_name: "Music Knob"
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+packages:
+  music_dashboard:
+    url: https://github.com/gurul/esphome-media-player
+    files: [devices/elecrow-crowpanel-esp32-s3-21-rotary/packages.yaml]
+    ref: main
+    refresh: 1s
+```
+
 ### ESP32-P4 JC8012P4A1 (10.1")
 
 ```yaml

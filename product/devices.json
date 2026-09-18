@@ -300,6 +300,58 @@
         "cols": 3,
         "rows": 3
       }
+    },
+    {
+      "profile": "elecrow-crowpanel-esp32-s3-21-rotary",
+      "asset_slug": "media-player-crowpanel-21-rotary",
+      "web_slug": "crowpanel-21-rotary",
+      "config": "elecrow-crowpanel-esp32-s3-21-rotary",
+      "chip": "ESP32-S3",
+      "package_path": "devices/elecrow-crowpanel-esp32-s3-21-rotary/packages.yaml",
+      "package_repo": "gurul/esphome-media-player",
+      "dev": {
+        "name": "music-knob-dev",
+        "friendly_name": "Music Knob Dev",
+        "local_components": [
+          "artwork_image",
+          "mipi_rgb",
+          "speaker_group_helpers"
+        ]
+      },
+      "esphome": {
+        "title": "Elecrow CrowPanel 2.1\" Rotary Music Knob",
+        "name": "music-knob",
+        "friendly_name": "Music Knob"
+      },
+      "docs_path": "/devices/crowpanel-21-rotary",
+      "docs": {
+        "order": 6,
+        "sidebar": "CrowPanel 2.1\" Rotary (round)"
+      },
+      "purchase": {
+        "label": "Elecrow",
+        "url": "https://www.elecrow.com/crowpanel-2-1inch-hmi-esp32-rotary-display-480-480-ips-round-touch-knob-screen.html",
+        "accessories": []
+      },
+      "display": {
+        "name": "Elecrow CrowPanel 2.1\" Rotary",
+        "label": "CrowPanel 2.1\" Rotary",
+        "size": "2.1 in",
+        "width": 480,
+        "height": 480,
+        "default_rotation": "0",
+        "layout": "square",
+        "shape": "square"
+      },
+      "assets": {
+        "icons": "devices/elecrow-crowpanel-esp32-s3-21-rotary/assets/icons.yaml"
+      },
+      "installer": {
+        "order": 6,
+        "slots": 9,
+        "cols": 3,
+        "rows": 3
+      }
     }
   ]
 }

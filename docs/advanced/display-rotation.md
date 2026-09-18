@@ -75,6 +75,38 @@ packages:
     refresh: 1s
 ```
 
+## CrowPanel 2.1" Rotary
+
+The 480×480 round display supports all four rotations. Rotation turns the
+display and touch input; the knob keeps its direction.
+
+| `display_rotation` |
+| ------------------- |
+| `"0"` (default)     |
+| `"90"`              |
+| `"180"`             |
+| `"270"`             |
+
+### Example: 180-degree rotation
+
+```yaml
+substitutions:
+  name: "music-knob"
+  friendly_name: "Music Knob"
+  display_rotation: "180"
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+packages:
+  music_dashboard:
+    url: https://github.com/gurul/esphome-media-player
+    files: [devices/elecrow-crowpanel-esp32-s3-21-rotary/packages.yaml]
+    ref: main
+    refresh: 1s
+```
+
 ## ESP32-P4 86 Panel
 
 The 720x720 square display supports the same four rotations as the S3 square display.

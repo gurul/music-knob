@@ -50,7 +50,7 @@ esphome:
     version: "${{firmware_version}}"
 
 dashboard_import:
-  package_import_url: github://{REPO}/devices/{device.config}/esphome.yaml@main
+  package_import_url: github://{device.package_repo or REPO}/devices/{device.config}/esphome.yaml@main
 """
     if device.chip == "ESP32-P4":
         return (

@@ -222,12 +222,12 @@ script:
             id(last_media_progress_percent) = value;
           }
 
-          const int expected_bar_y = ${screen_height} - 4;
+          const int expected_bar_y = ${screen_height} - 4 + (${progress_bar_align_y});
           const int actual_bar_y = lv_obj_get_y(id(media_progress_bar));
           if (actual_bar_y != expected_bar_y) {
             ESP_LOGW("display_guard", "Progress bar y changed from %d to %d; re-aligning to bottom",
                      expected_bar_y, actual_bar_y);
-            lv_obj_align(id(media_progress_bar), LV_ALIGN_BOTTOM_MID, 0, 0);
+            lv_obj_align(id(media_progress_bar), LV_ALIGN_BOTTOM_MID, 0, ${progress_bar_align_y});
           }
 
           lv_bar_set_range(id(media_progress_bar), 0, progress_range);

@@ -12,7 +12,7 @@ from typing import Any
 from product_model import Device, ROOT, load_devices
 
 
-REPO_URL = "https://github.com/jtenniswood/esphome-media-player"
+DEFAULT_REPO = "jtenniswood/esphome-media-player"
 
 
 def required_text(value: Any, label: str) -> str:
@@ -58,7 +58,7 @@ wifi:
 # Packages
 packages:
   music_dashboard:
-    url: {REPO_URL}
+    url: https://github.com/{device.package_repo or DEFAULT_REPO}
     files: [{device.package_path}]
     ref: main
     refresh: 1s
