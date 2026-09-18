@@ -7,7 +7,7 @@ description: Install ESPHome Media Player on the Elecrow CrowPanel 2.1-inch roun
 
 2.1" (480×480) round IPS touchscreen with a clicking rotary knob and an ESP32-S3. The layout is adapted for the round glass: track info is centred, play/pause sits at the bottom centre, and the progress bar is lifted clear of the bezel.
 
-This device is added in the [gurul/esphome-media-player](https://github.com/gurul/esphome-media-player) fork, so its packages are served from that fork.
+This device is added in [musicKnob](https://github.com/gurul/music-knob), a fork of this project, so its packages are served from that fork.
 
 ## Where to buy
 

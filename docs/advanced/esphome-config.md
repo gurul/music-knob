@@ -52,7 +52,7 @@ wifi:
 
 packages:
   music_dashboard:
-    url: https://github.com/gurul/esphome-media-player
+    url: https://github.com/gurul/music-knob
     files: [devices/elecrow-crowpanel-esp32-s3-21-rotary/packages.yaml]
     ref: main
     refresh: 1s

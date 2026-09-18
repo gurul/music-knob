@@ -308,7 +308,7 @@
       "config": "elecrow-crowpanel-esp32-s3-21-rotary",
       "chip": "ESP32-S3",
       "package_path": "devices/elecrow-crowpanel-esp32-s3-21-rotary/packages.yaml",
-      "package_repo": "gurul/esphome-media-player",
+      "package_repo": "gurul/music-knob",
       "dev": {
         "name": "music-knob-dev",
         "friendly_name": "Music Knob Dev",

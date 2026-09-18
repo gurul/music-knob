@@ -10,6 +10,6 @@ esphome:
     version: "${firmware_version}"
 
 dashboard_import:
-  package_import_url: github://gurul/esphome-media-player/devices/elecrow-crowpanel-esp32-s3-21-rotary/esphome.yaml@main
+  package_import_url: github://gurul/music-knob/devices/elecrow-crowpanel-esp32-s3-21-rotary/esphome.yaml@main
 
 improv_serial:
