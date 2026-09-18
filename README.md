@@ -1,6 +1,14 @@
-# musicKnob
+<p align="center">
+  <img src="docs/thumbnail.png" alt="musicKnob" width="720">
+</p>
 
-A round music knob for Home Assistant. Turn it for volume, press it to play or pause, and see the album art on a 2.1" round screen.
+<h1 align="center">musicKnob</h1>
+
+<p align="center">
+  A round music knob for Home Assistant. Turn it for volume, press it to play or pause, and see the album art on a 2.1" round screen.
+</p>
+
+---
 
 It runs on the [Elecrow CrowPanel 2.1" rotary display](https://www.elecrow.com/crowpanel-2-1inch-hmi-esp32-rotary-display-480-480-ips-round-touch-knob-screen.html), the same board as [spotKnob](https://github.com/gurul/spotify-knob). Where spotKnob talks to Spotify directly, musicKnob controls any Home Assistant `media_player`, so it works with Apple Music too.
 
